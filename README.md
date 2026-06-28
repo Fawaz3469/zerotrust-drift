@@ -31,19 +31,6 @@ One-liner: everyone else detects drift to fix the model. I detect drift to flag 
 
 That last graph is basically the whole paper.
 
-## Where I'm at
-
-Phase 0 of 6. Foundation's down, nailing the exact contribution.
-
-- [x] **Phase 0** — repo set up, dug through the literature, pinned the core idea
-- [ ] **Phase 1** — read everything, write the related work
-- [ ] **Phase 2** — design the experiment (the make-or-break part)
-- [ ] **Phase 3** — actually build it (Flower for federation, River for drift)
-- [ ] **Phase 4** — run it, make the money figure
-- [ ] **Phase 5** — write the paper
-- [ ] **Phase 6** — find a venue that isn't sketchy, submit
-
-Whole thing runs on a laptop. No GPUs, it's small tabular data and tiny models.
 
 ## Poking around
 

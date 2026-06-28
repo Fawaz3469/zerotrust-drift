@@ -1,0 +1,39 @@
+# --- Data (NEVER commit — too big for GitHub, and may be sensitive) ---
+data/*
+!data/README.md
+*.csv
+*.pcap
+*.parquet
+!results/*.csv          # but DO keep small result summaries in results/
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- ML artifacts ---
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+checkpoints/
+wandb/
+mlruns/
+
+# --- Papers (keep PDFs local; cite them, don't redistribute) ---
+research/papers/*
+!research/papers/.gitkeep
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,23 @@
+# Core data handling
+pandas>=2.0
+numpy>=1.24
+
+# Models + metrics (the "policies" and baselines)
+scikit-learn>=1.3
+
+# Drift detection (ADWIN, DDM, Page-Hinkley etc. — Phase 3/4)
+river>=0.21
+
+# Federated learning simulation (Phase 3/4)
+flwr>=1.7
+
+# Figures (Phase 4)
+matplotlib>=3.7
+seaborn>=0.12
+
+# Exploration
+jupyter>=1.0
+
+# NOTE: all of the above are pure-Python / CPU and run fine on Apple Silicon (M-series).
+# After your first successful install, freeze exact versions for reproducibility:
+#   pip freeze > requirements.lock.txt
